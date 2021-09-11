@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Start the sensor info publisher node.-->
+  <node name="sensor_info_publisher" pkg="assginment_sol" type="sensorpublisher"
+    output="screen"/>
+
+  <!-- Start the BoxHeightInformation publisher node (Assignment 1)-->
+  <node name="box_height_publisher" pkg="assginment_sol" type="assignment1"
+    output="screen"/>
+
+  <!-- Start the metres_to_feet service server ROS node.-->
+  <node name="metres_to_feet" pkg="assginment_sol" type="mTofServer"
+    output="screen"/>
+
+  <!-- BoxHeightInformation subscriber / convert to Feet node (Assignment 2)-->
+  <node name="box_height_subscriber" pkg="assginment_sol" type="assignment2"
+    output="screen"/>
+</launch>
