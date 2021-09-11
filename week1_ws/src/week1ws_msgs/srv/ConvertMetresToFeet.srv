@@ -1,0 +1,4 @@
+float64 measurement_meters  # Request field
+---
+float64 measurement_feet    # Response field
+bool success
