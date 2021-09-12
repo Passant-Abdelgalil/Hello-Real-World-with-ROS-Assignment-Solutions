@@ -13,13 +13,15 @@ double getSensorData(int sensor_type, double min_range, double max_range)
         cout << "Sensor type not supported!\n";
         return -1;
     }
-    default_random_engine generator;
+    random_device rd;
+    default_random_engine generator(rd());
     uniform_real_distribution<double> dist1(0.0, 1.0);
 
-    /*if (dist1(generator) < 0.95)
+    if (dist1(generator) < 0.95)
         return max_range;
-*/
+
     uniform_real_distribution<double> dist2(min_range, max_range);
+    dist2.reset();
     return dist2(generator);
 }
 

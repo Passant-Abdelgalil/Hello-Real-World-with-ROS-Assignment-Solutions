@@ -17,7 +17,7 @@ bool process_service_request(week1ws_msgs::ConvertMetresToFeetRequest &req, week
     else
     {
         res.success = true;
-        res.success = req.measurement_meters * _CONVERSION_FACTOR_METRES_TO_FEET;
+        res.measurement_feet = req.measurement_meters * _CONVERSION_FACTOR_METRES_TO_FEET;
     }
 
     return res.success;

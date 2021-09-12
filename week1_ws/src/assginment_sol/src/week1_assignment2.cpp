@@ -7,9 +7,7 @@ using namespace ros;
 void bos_height_info_callback(week1ws_msgs::BoxHeightInformation data)
 {
     try
-    {
-        ROS_INFO("sensor data is sent");
-        // create object of service message type and fill in its request data
+    {        // create object of service message type and fill in its request data
         week1ws_msgs::ConvertMetresToFeet service_msg;
         service_msg.request.measurement_meters = data.box_height;
 
