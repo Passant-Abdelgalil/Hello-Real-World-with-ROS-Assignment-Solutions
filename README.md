@@ -9,6 +9,12 @@ This repository contains my solutions for Hello (Real) World with ROS – Robot 
 |   ├── test_scripts.sh # bash script to test rospy scripts
 |   ├── test_execs.sh   # bash script to test ros c++ files
 |   └── README.md
+├── week2_ws
+|   ├── src
+|   ├── run_assignment1.sh   # bash script to run assignment 1 simulation
+|   ├── run_assignment2.sh   # bash script to run assignment 2 simulation
+|   ├── run_assignment3.sh   # bash script to run assignment 3 simulation
+|   └── README.md
 |
 └── README.md
 ```
@@ -38,3 +44,9 @@ run these commands to install on ubuntu 18 LTS
 3. run `cd AutonomousLearningPhase2022`
 4. cd to the week folder you want using cd, e.g. `cd week1_ws`.
 5. drag & drop **test_execs.sh** in the terminal OR run `./test_execs.sh`
+## Simulation Assignment
+1. Open up a terminal
+2. run `git clone https://github.com/CU-Eco-Racing-Team/AutonomousLearningPhase2022.git`
+3. run `cd AutonomousLearningPhase2022`
+4. cd to the week folder you want using cd, e.g. `cd week2_ws`.
+5. drag & drop **<bashScript_file_name>.sh** in the terminal OR run `./<bashScript_file_name>.sh` [Please change the file name].
