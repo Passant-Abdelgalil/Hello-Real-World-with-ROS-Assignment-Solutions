@@ -2,6 +2,27 @@
 
 This folder contains source files for week-2 assignments serves as a practice on simulation using RViz
 
+
+# Task Definition
+## Task 1
+The goal is to add a new model to the factory, which is a second bin that should be placed on the opposite side of the conveyor, right in front of Robot 1.
+
+## Task 2
+The goal is to add a new model to the factory, which is a green sphere that should be placed on the opposite side of the conveyor, underneath the stairs at the far end of the factory.
+
+## Task 3
+The goal is to replace Robot 2 (the UR5) with a different robot from another ROS package: `the Fanuc LR Mate 200iC`  with an identical orientation as the UR5 and it should point in the same direction as the UR5
+
+
+# Output
+## Task 1
+![bin img](imgs/task2_1.png)
+
+## Task 2
+![sphere img](imgs/task2_2.png)
+## Task 3
+![robot img](imgs/task2_3.png)
+
 # Folder Structure
 
 ```
@@ -46,16 +67,17 @@ This folder contains source files for week-2 assignments serves as a practice on
 |
 └── README.md
 ```
+
 # Run
 ## Assignment 1
-1. Drag & Drop `run_assignment1.sh`
+* Drag & Drop `run_assignment1.sh`  
 OR
-2. open terminal in week2_ws folder and run `./run_assignment1.sh`
+* open terminal in week2_ws folder and run `./run_assignment1.sh`
 ## Assignment 2
-1. Drag & Drop `run_assignment2.sh`
+* Drag & Drop `run_assignment2.sh`  
 OR
-2. open terminal in week2_ws folder and run `./run_assignment2.sh`
+* open terminal in week2_ws folder and run `./run_assignment2.sh`
 ## Assignment 3
-1. Drag & Drop `run_assignment3.sh`
+*  Drag & Drop `run_assignment3.sh`  
 OR
-2. open terminal in week2_ws folder and run `./run_assignment3.sh`
+* open terminal in week2_ws folder and run `./run_assignment3.sh`

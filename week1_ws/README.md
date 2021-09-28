@@ -1,6 +1,15 @@
 # Week 1 ROS Essentials Assignments
 
 This folder contains my solutions for Week1 (ROS Essentials) Assignments, implemented in ros c++/python.
+# Task Definition
+The main task of is to publish a new topic that contains the height of the detected boxes (in metres) based on the setup shown in the figure, and this information has to be converted to feet using the ”metres_to_feet” ROS service.
+
+![setup figure](imgs/task1.jpg)
+
+# Output
+![output image](imgs/week1_output.png)
+<br><br><br>
+
 # Folder Structure
 
 ```
@@ -37,3 +46,8 @@ This folder contains my solutions for Week1 (ROS Essentials) Assignments, implem
 |
 └── README.md
 ```
+
+# Run
+1. it's assumed you are in week1_ws folder, if not please cd your terminal to it.
+2. to run c++ executables, please run `./test_execs.sh`
+3. to run python scripts, please run `./test_scripts.sh`
